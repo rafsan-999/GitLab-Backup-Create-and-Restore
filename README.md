@@ -13,7 +13,7 @@ video link: https://www.youtube.com/watch?v=gSTWflp3jYc
     gitlab-ctl stop puma
     gitlab-ctl status
 # Restore backup
-Backup file should look like these: <1699940401_2023_11_14_16.3.4_gitlab_backup> ignore <_gitlab_backup> just copy <1699940401_2023_11_14_16.3.4>
+Backup file should look like these: <1699940401_2023_11_14_16.3.4_gitlab_backup> ignore <_gitlab_backup.tar> just copy <1699940401_2023_11_14_16.3.4>
 
     gitlab-rake gitlab:backup:restore BACKUP = 1699940401_2023_11_14_16.3.4 
 # After Successfully restore backup run the following command below
